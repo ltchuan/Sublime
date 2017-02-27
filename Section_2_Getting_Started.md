@@ -11,6 +11,7 @@ Column selection uses `Shift + RMB` or `MMB`. `Ctrl` to add to selection and `Al
 
 Instant search using `Ctrl + I` then press enter to go to that location.
 
+
 ## 2.4 The Command Palette
 
 `Ctrl + Shift + P` to open the command palette, where you can search for and run any command (e.g. from the menu bar, etc). For example, if you type in `syntax javascript` you will find the command to change the syntax highlighting to Javascript. 
@@ -19,5 +20,14 @@ Note that this is fuzzy searching, that is it is matching the characters you typ
 
 Another example is you could type `sidebar` and find the command to toggle sidebar (plus you can see the keyboard shortcut here, `Ctrl + K + B`). 
 
+
 ## 2.5 Instant File Changing
+
 `Ctrl + P` to open Goto Anything. This also fuzzy searches and so you can quickly find and open files (although only in the folder you have open).
+
+
+## 2.6 Symbols
+
+`Ctrl + R` to open Goto Symbol. This lets you quickly open things like classes. You can also use the Goto Anything dialogue and just type `@` to find these symbols. 
+
+You can also combine opening a file along with a symbol by matching a file name and then typing `@` to match a symbol.
