@@ -18,3 +18,6 @@ Instant search using `Ctrl + I` then press enter to go to that location.
 Note that this is fuzzy searching, that is it is matching the characters you type in order but they don't necessarily have to be sequential. For example, you could just type `stxjs` and it will find the set syntax to Javascript command.
 
 Another example is you could type `sidebar` and find the command to toggle sidebar (plus you can see the keyboard shortcut here, `Ctrl + K + B`). 
+
+## 2.5 Instant File Changing
+`Ctrl + P` to open Goto Anything. This also fuzzy searches and so you can quickly find and open files (although only in the folder you have open).
