@@ -31,3 +31,8 @@ Another example is you could type `sidebar` and find the command to toggle sideb
 `Ctrl + R` to open Goto Symbol. This lets you quickly open things like classes. You can also use the Goto Anything dialogue and just type `@` to find these symbols. 
 
 You can also combine opening a file along with a symbol by matching a file name and then typing `@` to match a symbol.
+
+
+## 2.7 Key Bindings
+
+Key bindings are set through a configuration file that is just a Javascript object. You can see the default key bindings in the default keymap file (which is overwritten each new version) and set your custom ones in the user keymap file. This allows you to easily search for the existing key bindings and modify them.
