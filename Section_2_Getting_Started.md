@@ -43,3 +43,10 @@ Key bindings are set through a configuration file that is just a Javascript obje
 You can open the packages folder via `Preferences -> Browse Packages`. If you need to install a package, you put them into this folder (you can clone them directly into this folder).
 
 (Not in course) - In Sublime Text 3, it seems packages installed through Package Control are stored as an archive in `..\Installed Packages`.
+
+
+## 2.9 Package Control
+
+Install package control from [https://packagecontrol.io/installation](https://packagecontrol.io/installation).
+
+After installing package control, we can access it from the Preferences menu or via the Command Palette (typing `install`). We can then look for things via fuzzy searching. For example, if we type in blade, we can find Blade syntax highlighting. 
