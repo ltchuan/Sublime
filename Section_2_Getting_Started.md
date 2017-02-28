@@ -36,3 +36,10 @@ You can also combine opening a file along with a symbol by matching a file name 
 ## 2.7 Key Bindings
 
 Key bindings are set through a configuration file that is just a Javascript object. You can see the default key bindings in the default keymap file (which is overwritten each new version) and set your custom ones in the user keymap file. This allows you to easily search for the existing key bindings and modify them.
+
+
+## 2.8 Installing Plugins Without Package Control
+
+You can open the packages folder via `Preferences -> Browse Packages`. If you need to install a package, you put them into this folder (you can clone them directly into this folder).
+
+(Not in course) - In Sublime Text 3, it seems packages installed through Package Control are stored as an archive in `..\Installed Packages`.
