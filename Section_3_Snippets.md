@@ -34,3 +34,8 @@ The snippet should be saved in `Packages\User` and needs to be saved with the ex
 The tab stops in the snippet are set via the `${...}` syntax in the earlier example. In that example, we have `${1:this}`, which indicates that is the position of the first tab stop and has the default value of `this`.
 
 The name of the snippet name is set by the file name of the snippet so giving clear file names for the snippets is important.
+
+
+## 3.2 Adding Snippets Through Package Control
+
+You can also download snippet packs through Package Control. For example, you can download a bunch of jQuery snippets. You can then see what snippets you have obtained by typing `jquery` into the Command Palette.
