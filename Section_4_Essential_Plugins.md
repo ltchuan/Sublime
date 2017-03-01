@@ -61,3 +61,27 @@ If we wish to add a sibling to this, we would need to wrap the whole thing in `(
     </div>
 </div>
 ```
+
+
+## 4.2 Emmet 
+
+We can also use Emmet shortcuts for CSS. For example, if we were to type `p20` and `Tab` it will expand to `padding: 20px;`. `m10` gives `margin: 10px;`. 
+
+If you want a percentage, you can do `w80p` which gives `width: 80%;`. `m10-20` gives `margin: 10px 20px;`. `m0-auto` gives `margin: 0 auto;`.
+
+If we need to do prefixes, we can use a `-`. For example, `-transition` gives
+```CSS
+-webkit-transition: ;
+-o-transition: ;
+transition: ;
+```
+
+We can also use `^` to go back a level when creating HTML and so if we were to do `header>h1^.main` we would get
+```html
+<header>
+    <h1></h1>
+</header>
+<div class="main"></div>
+```
+
+We can also use it to generate Lorem text via `lorem20` which will generate 20 words of Lorem text.
