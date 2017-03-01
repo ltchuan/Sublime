@@ -101,3 +101,8 @@ We can also use this plugin to make the file open via a web server (E.g. via loc
 "url": "http://localhost:8888/"
 ```
 for example and now when we open a file in our browser it will use that URL.
+
+
+## 4.7 Sublime Linter
+
+We can use the SublimeLinter plugin to add linting to Sublime. This plugin has been updated since the course has been made however, and we also need to install the actual lint plugins separately and these often need you to install separate binaries or libraries. See the documentation at [http://www.sublimelinter.com/en/latest/#user-documentation](http://www.sublimelinter.com/en/latest/#user-documentation) for more info.
