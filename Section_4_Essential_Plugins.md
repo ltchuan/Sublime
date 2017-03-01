@@ -85,3 +85,8 @@ We can also use `^` to go back a level when creating HTML and so if we were to d
 ```
 
 We can also use it to generate Lorem text via `lorem20` which will generate 20 words of Lorem text.
+
+
+## 4.5 Lightning Fast Folder and File Creation
+
+Using the Advanced New File plugin, we can use `CTRL + ALT + N` to create a new file with a prompt to enter the filename. We can also use this to create a file in a directory and the plugin will automatically create any directories that do not exist.
