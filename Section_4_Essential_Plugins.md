@@ -90,3 +90,14 @@ We can also use it to generate Lorem text via `lorem20` which will generate 20 w
 ## 4.5 Lightning Fast Folder and File Creation
 
 Using the Advanced New File plugin, we can use `CTRL + ALT + N` to create a new file with a prompt to enter the filename. We can also use this to create a file in a directory and the plugin will automatically create any directories that do not exist.
+
+
+## 4.6 Sidebar Enhancements
+
+We can use the Sidebar Enhancements plugin to add more options for the sidebar such as adding an option to open a file in your default browser. 
+
+We can also use this plugin to make the file open via a web server (E.g. via localhost). To do this, we need to have a project and we can then add 
+```javascript
+"url": "http://localhost:8888/"
+```
+for example and now when we open a file in our browser it will use that URL.
