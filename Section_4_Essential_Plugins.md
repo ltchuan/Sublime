@@ -106,3 +106,39 @@ for example and now when we open a file in our browser it will use that URL.
 ## 4.7 Sublime Linter
 
 We can use the SublimeLinter plugin to add linting to Sublime. This plugin has been updated since the course has been made however, and we also need to install the actual lint plugins separately and these often need you to install separate binaries or libraries. See the documentation at [http://www.sublimelinter.com/en/latest/#user-documentation](http://www.sublimelinter.com/en/latest/#user-documentation) for more info.
+
+
+## 4.9 DocBlockr
+
+We can use the DocBlockr plugin to give us commenting templates. For example, if we have a some PHP code 
+```php
+class MyClass {
+    public function run($person, $howFar)
+    {
+        return "$person needs to run $howFar miles.";
+    }
+}
+```
+
+If we then type in `\**` and `Tab` immediately before the method, we would get 
+```php
+class MyClass {
+    /**
+     * [run description]
+     * @param  [type] $person [description]
+     * @param  [type] $howFar [description]
+     * @return [type]         [description]
+     */
+    public function run($person, $howFar)
+    {
+        return "$person needs to run $howFar miles.";
+    }
+}
+```
+where DocBlockr has automatically given us a template for commenting with the parameters automatically filled in. We can also tab through each section we need to fill in.
+
+We can also add comments above the class in which case it will just give us a block to describe the class. 
+
+The plugin will also fill in the type if it is apparent from the code, so if we were to set a default for person via `$person = 'John Doe'`, the plugin will automatically fill in the type for the person variable as string.
+
+The plugin will auto recognise function names such as `isRunning()`, in which case it will automatically set the return type to boolean.
